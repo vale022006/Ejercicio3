@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal de Diana Pacacira - Frontend Developer">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Portafolio, Frontend Developer">
+  <title>Diana Pacacira - Frontend Developer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="Estilos.css">
+    <script src="scripts.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="nav-container">
+      <div class="logo">Diana Pacacira</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="articulos.html">Articulos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+    </nav>
+  </header>
+
+
+  <main>
+    <!-- Sección Reseñas -->
+    <section id="reviews">
+      <h2 class="section-title">Cómo crear una estructura HTML semántica</h2>
+      <div class="grid-container">
+        <div class="card">
+          <blockquote style="font-style: italic; margin-bottom: 1rem;">
+            <p>
+              Una estructura <strong>HTML semántica</strong> significa usar etiquetas que describen claramente
+              el propósito del contenido, se utilizan etiquetas como:
+            </p>
+            <ul>
+              <li><strong>&lt;header&gt;</strong> → Encabezado principal de la página o sección.</li>
+              <li><strong>&lt;nav&gt;</strong> → Menú o barra de navegación.</li>
+              <li><strong>&lt;main&gt;</strong> → Contenido principal del sitio.</li>
+              <li><strong>&lt;section&gt;</strong> → Agrupa contenido relacionado en secciones.</li>
+              <li><strong>&lt;article&gt;</strong> → Contenido independiente, como una noticia o publicación.</li>
+              <li><strong>&lt;footer&gt;</strong> → Pie de página con información final.</li>
+            </ul>
+          </blockquote>
+          <p style="font-weight: 600;">
+          <p>
+            Usar etiquetas semánticas ayuda a que el código sea más ordenado, fácil de mantener
+            y mejor comprendido por los buscadores y lectores de pantalla.
+            Esto mejora la accesibilidad y la optimización SEO del sitio.
+          </p>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="reviews">
+      <h2 class="section-title">Importancia de las metaetiquetas SEO</h2>
+      <div class="grid-container">
+        <div class="card">
+          <blockquote style="font-style: italic; margin-bottom: 1rem;">
+            <p>
+              Las <strong>metaetiquetas</strong> son fragmentos de información que se colocan dentro de la etiqueta
+              &lt;head&gt; del documento HTML. No son visibles para los usuarios, pero los motores de búsqueda las
+              utilizan para entender de qué trata tu página.
+            </p>
+            <p>Las más comunes son:</p>
+            <ul>
+              <li><strong>&lt;meta name="description"&gt;</strong> → Describe brevemente el contenido de la página.</li>
+              <li><strong>&lt;meta name="keywords"&gt;</strong> → Palabras clave relacionadas con el tema del sitio.
+              </li>
+              <li><strong>&lt;meta name="author"&gt;</strong> → Indica el autor de la página.</li>
+              <li><strong>&lt;meta property="og:title"&gt;</strong> → Título que se muestra cuando compartes el sitio en
+                redes sociales.</li>
+            </ul>
+          </blockquote>
+          <p style="font-weight: 600;">
+          <p>
+            Tener buenas metaetiquetas mejora la visibilidad en los motores de búsqueda (SEO) y
+            ayuda a que tu sitio aparezca con una descripción atractiva cuando se muestra en los resultados de Google.
+          </p>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+  </footer>
+</body>
+
+</html>

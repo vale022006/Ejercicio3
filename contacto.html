@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal de Diana Pacacira - Frontend Developer">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Portafolio, Frontend Developer">
+  <title>Diana Pacacira - Frontend Developer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Estilos.css">
+    <script src="scripts.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="nav-container">
+      <div class="logo">Diana Pacacira</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="articulos.html">Articulos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+    </nav>
+  </header>
+
+
+  <main>
+    <!-- Sección Contacto -->
+    <section id="contact">
+      <h2 class="section-title">Contacto</h2>
+      <div class="contact-form">
+        <form>
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+
+          <div class="form-group">
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          </div>
+
+          <button type="submit">Enviar Mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <br><br><br>
+
+  <footer>
+    <p>© 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+  </footer>
+</body>
+
+</html>
